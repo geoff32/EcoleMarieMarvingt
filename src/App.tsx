@@ -6,7 +6,7 @@ import NewsLetters from "./pages/NewsLetters";
 
 function App() {
   return (
-    <Router>
+    <Router basename="EcoleMarieMarvingt">
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
